@@ -197,7 +197,6 @@ MultiSolution solution(std::size_t numWhite_, std::size_t numBlack_)
    if(numBlack_ == 0)
      {
        return multiFromSingle(solution(numWhite_), true);
-       return result;
      }
 
   if(numWhite_ == 0)
