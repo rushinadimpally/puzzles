@@ -1,0 +1,39 @@
+rushinad@rushinad:~/dev/git/puzzles$ g++ --std=c++14 -o multi multispheres.cc 
+rushinad@rushinad:~/dev/git/puzzles$ ./multi 4
+Solution size: 5
+Combinations: 
+O,O,O,O
+O,O,OO
+O,OOO
+OO,OO
+OOOO
+rushinad@rushinad:~/dev/git/puzzles$ ./multi 5
+Solution size: 7
+Combinations: 
+O,O,O,O,O
+O,O,O,OO
+O,O,OOO
+O,OO,OO
+O,OOOO
+OO,OOO
+OOOOO
+rushinad@rushinad:~/dev/git/puzzles$ ./multi 1 2
+Solution size: 4
+Combinations: 
+B,B,W
+B,WB
+BB,W
+WBB
+rushinad@rushinad:~/dev/git/puzzles$ ./multi 2 2
+Solution size: 9
+Combinations: 
+B,B,W,W
+B,B,WW
+B,W,WB
+B,WWB
+BB,W,W
+BB,WW
+W,WBB
+WB,WB
+WWBB
+rushinad@rushinad:~/dev/git/puzzles$ 
